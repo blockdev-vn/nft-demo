@@ -1,0 +1,28 @@
+{
+  "name": "nft-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge": "node node_modules/truffle-flattener ./contracts/blockdev-nft.sol > blockdev-nft-merge.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockdev-vn/nft-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockdev-vn/nft-demo/issues"
+  },
+  "homepage": "https://github.com/blockdev-vn/nft-demo#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "truffle-flattener": "^1.5.0"
+  }
+}
